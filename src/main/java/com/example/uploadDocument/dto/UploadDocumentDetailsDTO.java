@@ -21,6 +21,7 @@ public class UploadDocumentDetailsDTO {
     private String status = null;
     private int uploadBy;
     private int lastReviewedBy;
+    private Boolean deleted = Boolean.FALSE;
     private LocalDateTime lastReviewedTime;
     private List<DocumentHeaders> documentHeadersList;
     private List<DocumentRecords> documentRecordsList;

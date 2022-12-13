@@ -78,6 +78,7 @@ public class FileService extends BaseService {
         return new UploadDocumentDetailsDTO().toBuilder().name(dbDocument.getName()).totalRecords(dbDocument.getTotalRecords())
                 .totalHeaders(dbDocument.getTotalHeaders())
                 .status(dbDocument.getStatus())
+                .deleted(dbDocument.getDeleted())
                 .uploadBy(dbDocument.getUploadBy()).totalUploaded(dbDocument.getTotalUploaded()).
                 lastReviewedBy(dbDocument.getLastReviewedBy()).lastReviewedTime(dbDocument.getLastReviewedTime()).
                 documentHeadersList(documentHeadersList).documentRecordsList(documentRecordsList).
