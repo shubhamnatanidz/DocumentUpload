@@ -19,5 +19,5 @@ Spring Boot Demo application to upload file
 
 #### Steps to run application
 - Run UploadDocumentApplication main class
-- Once the application started : Go to browser and run http://localhost:8080/swagger-ui/index.html.
+- Once the application started : Go to browser and run http://localhost:8090/swagger-ui/index.html.
 - Upload File Format: .\test\resources\regionFile.xlsx
